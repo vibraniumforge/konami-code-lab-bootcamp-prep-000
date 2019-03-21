@@ -12,5 +12,9 @@ const codes = [
 ];
 
 function init() {
-  // your code here
+  document.body.addEventListener("keydown", alert)
+}
+
+function alert() {
+  alert "Konami Code";
 }
